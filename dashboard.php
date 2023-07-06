@@ -835,27 +835,14 @@ if ($result6->num_rows > 0) {
 
           <li class="nav-item">
             <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Starters</h4>
+              <h4>Arabika</h4>
             </a>
           </li><!-- End tab nav item -->
 
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Breakfast</h4>
+              <h4>Robusta</h4>
             </a><!-- End tab nav item -->
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
         </ul>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
@@ -864,43 +851,10 @@ if ($result6->num_rows > 0) {
 
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Starters</h3>
+              <h3>Arabika</h3>
             </div>
 
             <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Tarbulan Jenis Robusta</h4>
-                <p class="ingredients">
-                  Kopi Robusta Asli
-                </p>
-                <p class="price">
-                  Rp50.000
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Aceh Gayo</h4>
-                <p class="ingredients">
-                  Asli Aceh Gayo
-                </p>
-                <p class="price">
-                  Rp24.000
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Jantan Lanang</h4>
-                <p class="ingredients">
-                  Kopi Buat Laki Lanang
-                </p>
-                <p class="price">
-                  Rp25.000
-                </p>
-              </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
@@ -942,19 +896,19 @@ if ($result6->num_rows > 0) {
 
             <div class="tab-header text-center">
               <p>Menu</p>
-              <h3>Breakfast</h3>
+              <h3>Robusta</h3>
             </div>
 
             <div class="row gy-5">
 
-              <div class="col-lg-4 menu-item">
+            <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Kopi Tarbulan Jenis Robusta</h4>
                 <p class="ingredients">
                   Kopi Robusta Asli
                 </p>
                 <p class="price">
-                  $5.95
+                  Rp50.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -965,7 +919,7 @@ if ($result6->num_rows > 0) {
                   Asli Aceh Gayo
                 </p>
                 <p class="price">
-                  $14.95
+                  Rp24.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -976,202 +930,12 @@ if ($result6->num_rows > 0) {
                   Kopi Buat Laki Lanang
                 </p>
                 <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Aceh Gayo </h4>
-                <p class="ingredients">
-                  Asli Arabika Gayo
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Toraja</h4>
-                <p class="ingredients">
-                  Asli Arabika Toraja
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
+                  Rp25.000
                 </p>
               </div><!-- Menu Item -->
 
             </div>
           </div><!-- End Breakfast Menu Content -->
-
-          <div class="tab-pane fade" id="menu-lunch">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Lunch</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Tarbulan Jenis Robusta</h4>
-                <p class="ingredients">
-                  Kopi Robusta Asli
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Aceh Gayo</h4>
-                <p class="ingredients">
-                  Asli Aceh Gayo
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Jantan Lanang</h4>
-                <p class="ingredients">
-                  Kopi Buat Laki Lanang
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Aceh Gayo </h4>
-                <p class="ingredients">
-                  Asli Arabika Gayo
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Toraja</h4>
-                <p class="ingredients">
-                  Asli Arabika Toraja
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Lunch Menu Content -->
-
-          <div class="tab-pane fade" id="menu-dinner">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Dinner</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Tarbulan Jenis Robusta</h4>
-                <p class="ingredients">
-                  Kopi Robusta Asli
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Aceh Gayo</h4>
-                <p class="ingredients">
-                  Asli Aceh Gayo
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Robusta Jantan Lanang</h4>
-                <p class="ingredients">
-                  Kopi Buat Laki Lanang
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Aceh Gayo </h4>
-                <p class="ingredients">
-                  Asli Arabika Gayo
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kopi Arabika Toraja</h4>
-                <p class="ingredients">
-                  Asli Arabika Toraja
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Dinner Menu Content -->
-
         </div>
 
       </div>
@@ -1182,7 +946,7 @@ if ($result6->num_rows > 0) {
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Testimonials</h2>
+          <h2>Testimoni</h2>
           <p>Apa yang mereka <span>Katakan Tentang Kami</span></p>
         </div>
 
@@ -1200,7 +964,7 @@ if ($result6->num_rows > 0) {
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
+                      <h4>Penikmat &amp; Ahli Kopi</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -1248,7 +1012,7 @@ if ($result6->num_rows > 0) {
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
+                      <h4>Selebgram</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -1272,7 +1036,7 @@ if ($result6->num_rows > 0) {
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
+                      <h4>Store Owner</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
