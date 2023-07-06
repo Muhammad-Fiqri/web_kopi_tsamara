@@ -1278,34 +1278,34 @@ if ($result6->num_rows > 0) {
           </div>
 
         <div class="section-header" style="margin-top:100px">
-          <h2>Events</h2>
-          <p>Bagikan <span>Momenmu</span> Di Restoran Kami</p>
+          <h2>Toko</h2>
+          <p>Cek Foto <span>Toko</span> Kami</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
-              <div class="price align-self-start">$99</div>
+              <h3>Logo</h3>
+              <div class="price align-self-start">Deskripsi:</div>
               <p class="description">
-                Butuh Pesta Custom Untuk Event Yang Unik? Pesan Paket Custom Parties, maka anda dapat fitur spesial untuk pesta anda
+                Logo Kopi Tarbulan
               </p>
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
-              <h3>Private Parties</h3>
-              <div class="price align-self-start">$289</div>
+              <h3>Kemasan Kopi Tarbulan</h3>
+              <div class="price align-self-start">Deskripsi:</div>
               <p class="description">
-                Anda tidak suka keramaian? dan suka privasi? Pesan paket Private Parties dan nikmati pesta privasi special untuk orang-orang yang anda cintai.
+                Kemasan Kopi Tarbulan Kedap Udara Menjaga Kualitas Dan Cita Rasa
               </p>
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
+              <h3>Tampilan Jalan Toko</h3>
+              <div class="price align-self-start">Deskripsi:</div>
               <p class="description">
-                Ingin Merayakan Hari Lahir Anda Dan Yang Anda Sayangi? Pesan Paket Birthday Parties dan rayakan pesta ulang tahun untuk anda dan keluarga anda.
+                Jalan Toko Di Google Map
               </p>
             </div><!-- End Event item -->
 
@@ -1731,8 +1731,8 @@ if ($result6->num_rows > 0) {
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Pesan Meja</h2>
-          <p>Pesan <span>Meja Anda</span> Dengan Kami</p>
+          <h2>Pesan Kopi</h2>
+          <p>Pesan <span>Kopi Anda</span> Dengan Kami</p>
         </div>
 
         <div class="row g-0">
@@ -2508,10 +2508,8 @@ if ($result6->num_rows > 0) {
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Ikuti Kami</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="https://www.facebook.com/kopitarbulan/" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/kopi_tarbulan/" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
