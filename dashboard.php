@@ -871,7 +871,7 @@ if ($result6->num_rows > 0) {
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Kemasan Kopi Tarbulan Jenis Robusta</h4>
+                <h4>Kopi Tarbulan Jenis Robusta</h4>
                 <p class="ingredients">
                   Kopi Robusta Asli
                 </p>
@@ -895,7 +895,7 @@ if ($result6->num_rows > 0) {
                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Kopi Robusta Jantan Lanang</h4>
                 <p class="ingredients">
-                  Kopi buat Chad Coffee Enthusiast
+                  Kopi Buat Laki Lanang
                 </p>
                 <p class="price">
                   $8.95
@@ -1515,7 +1515,7 @@ if ($result6->num_rows > 0) {
 
         <div class="section-header" style="margin-top:100px">
           <h2>Events</h2>
-          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+          <p>Bagikan <span>Momenmu</span> Di Restoran Kami</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1525,7 +1525,7 @@ if ($result6->num_rows > 0) {
               <h3>Custom Parties</h3>
               <div class="price align-self-start">$99</div>
               <p class="description">
-                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+                Butuh Pesta Custom Untuk Event Yang Unik? Pesan Paket Custom Parties, maka anda dapat fitur spesial untuk pesta anda
               </p>
             </div><!-- End Event item -->
 
@@ -1533,7 +1533,7 @@ if ($result6->num_rows > 0) {
               <h3>Private Parties</h3>
               <div class="price align-self-start">$289</div>
               <p class="description">
-                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+                Anda tidak suka keramaian? dan suka privasi? Pesan paket Private Parties dan nikmati pesta privasi special untuk orang-orang yang anda cintai.
               </p>
             </div><!-- End Event item -->
 
@@ -1541,7 +1541,7 @@ if ($result6->num_rows > 0) {
               <h3>Birthday Parties</h3>
               <div class="price align-self-start">$499</div>
               <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+                Ingin Merayakan Hari Lahir Anda Dan Yang Anda Sayangi? Pesan Paket Birthday Parties dan rayakan pesta ulang tahun untuk anda dan keluarga anda.
               </p>
             </div><!-- End Event item -->
 
@@ -1967,8 +1967,8 @@ if ($result6->num_rows > 0) {
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Book A Table</h2>
-          <p>Book <span>Your Stay</span> With Us</p>
+          <h2>Pesan Meja</h2>
+          <p>Pesan <span>Meja Anda</span> Dengan Kami</p>
         </div>
 
         <div class="row g-0">
@@ -2010,9 +2010,9 @@ if ($result6->num_rows > 0) {
               <div class="mb-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                <div class="sent-message">Pesanan Booking Anda Di Terima, Anda Akan Mendapat Email atau Pesan Secepatnya, Terimakasih!</div>
               </div>
-              <div class="text-center"><button type="submit">Book a Table</button></div>
+              <div class="text-center"><button type="submit">Pesan Meja</button></div>
             </form>
           </div><!-- End Reservation Form -->
 
@@ -2371,9 +2371,9 @@ if ($result6->num_rows > 0) {
           </div>
 
 
-        <div class="section-header">
+        <div class="section-header" style="margin-top:100px">
           <h2>gallery</h2>
-          <p>Check <span>Our Gallery</span></p>
+          <p>Cek <span>Galeri Kami</span></p>
         </div>
 
         <div class="gallery-slider swiper">
@@ -2621,11 +2621,11 @@ if ($result6->num_rows > 0) {
 
         <div class="section-header">
           <h2>Contact</h2>
-          <p>Need Help? <span>Contact Us</span></p>
+          <p>Butuh Bantuan? <span>Hubungi Kami</span></p>
         </div>
 
         <div class="mb-3">
-          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.505853571598!2d107.05779017770998!3d-6.230349500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f70f4926239%3A0xdd39cf2f807952e0!2sOutlet%20Kopi%20Tarbulan%20(Grosir%20Kopi%20Murni)!5e0!3m2!1sid!2sid!4v1688629587212!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
         </div><!-- End Google Maps -->
 
         <div class="row gy-4">
@@ -2634,8 +2634,8 @@ if ($result6->num_rows > 0) {
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-map flex-shrink-0"></i>
               <div>
-                <h3>Our Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Alamat Kami</h3>
+                <p>Outlet Kopi Tarbulan Jl. Raya Villa Bekasi Indah No 7, Jejalenjaya,. Tambun Utara, Bekasi (Depan Gerbang Perum Bekasi Indah 1/ Samping Yayasan Al Munir) Bekasi, West Java, Indonesia 17510</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -2644,8 +2644,8 @@ if ($result6->num_rows > 0) {
             <div class="info-item d-flex align-items-center">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
-                <h3>Email Us</h3>
-                <p>contact@example.com</p>
+                <h3>Email Kami</h3>
+                <p>Irawati_say@yahoo.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -2654,8 +2654,8 @@ if ($result6->num_rows > 0) {
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <h3>Telepon Kami</h3>
+                <p>0853-1116-4567</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -2664,9 +2664,9 @@ if ($result6->num_rows > 0) {
             <div class="info-item  d-flex align-items-center">
               <i class="icon bi bi-share flex-shrink-0"></i>
               <div>
-                <h3>Opening Hours</h3>
-                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
-                  <strong>Sunday:</strong> Closed
+                <h3>Waktu Buka</h3>
+                <div><strong>Sen-Sab:</strong> 07.00 - 21.00;
+                  <strong>Minggu:</strong> Tutup
                 </div>
               </div>
             </div>
@@ -2692,9 +2692,9 @@ if ($result6->num_rows > 0) {
           <div class="my-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
+            <div class="sent-message">Pesanmu Telah Terkirim Terimakasih</div>
           </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
+          <div class="text-center"><button type="submit">Kirim Pesan</button></div>
         </form><!--End Contact Form -->
 
       </div>
@@ -2712,8 +2712,8 @@ if ($result6->num_rows > 0) {
           <div>
             <h4>Address</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022 - US<br>
+            Outlet Kopi Tarbulan Jl. Raya Villa Bekasi Indah No 7, Jejalenjaya,. Tambun Utara, Bekasi (Depan Gerbang Perum Bekasi Indah 1/ Samping Yayasan Al Munir)<br>
+            Bekasi, West Java, Indonesia 17510<br>
             </p>
           </div>
 
@@ -2724,8 +2724,8 @@ if ($result6->num_rows > 0) {
           <div>
             <h4>Reservations</h4>
             <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Telepon:</strong> 0853-1116-4567<br>
+              <strong>Email:</strong> Irawati_say@yahoo.com<br>
             </p>
           </div>
         </div>
@@ -2733,20 +2733,20 @@ if ($result6->num_rows > 0) {
         <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4>Waktu Buka</h4>
             <p>
-              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
-              Sunday: Closed
+              <strong>Sen-Sab: 07.00</strong> - 21.00<br>
+              Minggu: Tutup
             </p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Follow Us</h4>
+          <h4>Ikuti Kami</h4>
           <div class="social-links d-flex">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/kopitarbulan/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/kopi_tarbulan/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
@@ -2756,7 +2756,7 @@ if ($result6->num_rows > 0) {
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Kopi Tarbulan</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
