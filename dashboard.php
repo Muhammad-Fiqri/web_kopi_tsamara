@@ -876,7 +876,7 @@ if ($result6->num_rows > 0) {
                   Kopi Robusta Asli
                 </p>
                 <p class="price">
-                  $5.95
+                  Rp50.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -887,7 +887,7 @@ if ($result6->num_rows > 0) {
                   Asli Aceh Gayo
                 </p>
                 <p class="price">
-                  $14.95
+                  Rp24.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -898,7 +898,7 @@ if ($result6->num_rows > 0) {
                   Kopi Buat Laki Lanang
                 </p>
                 <p class="price">
-                  $8.95
+                  Rp25.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -909,7 +909,7 @@ if ($result6->num_rows > 0) {
                   Asli Arabika Gayo
                 </p>
                 <p class="price">
-                  $12.95
+                  Rp40.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -920,7 +920,7 @@ if ($result6->num_rows > 0) {
                   Asli Arabika Toraja
                 </p>
                 <p class="price">
-                  $12.95
+                  Rp38.000
                 </p>
               </div><!-- Menu Item -->
 
@@ -931,7 +931,7 @@ if ($result6->num_rows > 0) {
                   Arabika Asli Sidikalang
                 </p>
                 <p class="price">
-                  $9.95
+                  Rp40.000
                 </p>
               </div><!-- Menu Item -->
 
