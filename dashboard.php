@@ -437,7 +437,7 @@ if ($result6->num_rows > 0) {
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Outlet Kopi Tarbulan<span>.</span></h1>
+        <h1>Outlet <span>Kopi Tarbulan.</span></h1>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -463,8 +463,8 @@ if ($result6->num_rows > 0) {
           <h2 data-aos="fade-up">Outlet Kopi Tarbulan <br>(Grosir Kopi Murni)</h2>
           <p data-aos="fade-up" data-aos-delay="100">Kopi Asli dan Berkualitas</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#book-a-table" class="btn-book-a-table">Beli Kopi</a>
+            <a href="https://www.youtube.com/watch?v=cKTF7o-NN20&ab_channel=DeniAce" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Tonton Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -481,15 +481,15 @@ if ($result6->num_rows > 0) {
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>About Us</h2>
-          <p>Learn More <span>About Us</span></p>
+          <h2>Tentang Kami</h2>
+          <p>Pelajari Lebih <span>Tentang Kami</span></p>
         </div>
 
         <div class="row gy-4">
           <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
-              <h4>Book a Table</h4>
-              <p>+1 5589 55488 55</p>
+              <h4>Beli Kopi</h4>
+              <p>085311164567</p>
             </div>
           </div>
           <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
@@ -511,7 +511,7 @@ if ($result6->num_rows > 0) {
 
               <div class="position-relative mt-4">
                 <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+                <a href="https://www.youtube.com/watch?v=Y09jMHudaI0&ab_channel=dinargrup" class="glightbox play-btn"></a>
               </div>
             </div>
           </div>
@@ -528,12 +528,12 @@ if ($result6->num_rows > 0) {
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
-              <h3>Why Choose Kopi Tarbulan?</h3>
+              <h3>Kenapa Pilih Kopi Tarbulan?</h3>
               <p>
                 Kopi Tarbulan adalah outlet kopi yang terpercaya yang hanya menjual kopi dengan kualitas tinggi dan Asli.
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="#" class="more-btn">Pelajari Lebih <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
@@ -544,7 +544,7 @@ if ($result6->num_rows > 0) {
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-clipboard-data"></i>
-                  <h4>Kopi Tarbulan Kopi Bubuk Hitam Murni Tanpa Campuran.</h4>
+                  <h4>Kopi Tarbulan Murni Tanpa Campuran</h4>
                   <p>Kopi Tarbulan diambil dari Biji Kopi Pilihan yang berasal dari Perkebunan Atarbulan milik Keluarga. </p>
                 </div>
               </div><!-- End Icon Box -->
@@ -582,28 +582,28 @@ if ($result6->num_rows > 0) {
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <p>Pelanggan</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <p>Outlet</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <p>Jam Buka</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <p>Pekerja</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -926,9 +926,9 @@ if ($result6->num_rows > 0) {
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Kopi Arabika Sidikalang</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Arabika Asli Sidikalang
                 </p>
                 <p class="price">
                   $9.95
