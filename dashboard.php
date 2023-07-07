@@ -1,5 +1,6 @@
 <?php session_start();
 
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -628,7 +629,7 @@ if ($result6->num_rows > 0) {
                   <tr>
                     <th scope="col" style="text-center">No</th>
                     <th scope="col">Kode Kriteria</th>
-                    <th scope="col">Kritria</th>
+                    <th scope="col">Kriteria</th>
                     <th scope="col" style="text-align: center;">Nilai Mutu</th>
                     <th scope="col" style="text-align: center;">Nilai</th>
                   </tr>
@@ -644,7 +645,8 @@ if ($result6->num_rows > 0) {
                   //$result1 = 
 
                   $result = $conn->query($sql);
-          $kodekriteria1 =0;
+
+          
           if ($result->num_rows > 0) {
           // output data of each row
           while($row = $result->fetch_assoc()) {
@@ -653,16 +655,10 @@ if ($result6->num_rows > 0) {
 
             echo '<tr>';
             echo '<td>'. $num . '</td>';
-            if($kodekriteria1 == $row['kode_kriteria']){
-               echo '<td class="bdr"></td>';
-               echo '<td class="bdr"></td>';
-            }else{
             echo '<td class="bdr">'. $row['kode_kriteria'] . '</td>';
             echo '<td class="bdr">'. $row['kriteria'] . '</td>';
-           }
             echo '<td class="bdr" style="text-align: center;">'. $row['nilai_mutu'] . '</td>';
             echo '<td class="bdr" style="text-align: center;">'. $row['nilai'] . '</td>';
-            $kodekriteria1 = $row['kode_kriteria'];
           }
           } else {
           echo "0 results";
@@ -2238,7 +2234,7 @@ if ($result6->num_rows > 0) {
     <div style="text-align:  center;">
       <a href="#form_tambah_alternatif" class="btn" style="background-color:#A1C2F1;">Tambah Alternatif</a>
       <a href="#form_update_alternatif" class="btn" style="background-color:#FFD0D0;">Edit Nilai Alternatif</a>
-
+      <a href="pdf_export.php" class="btn" style="background-color:#FFD0D0;">Print PDF</a>
     </div>
     <br>
     <script>
@@ -2410,6 +2406,7 @@ if ($result6->num_rows > 0) {
               <div>
                 <h3>Email Kami</h3>
                 <p>Irawati_say@yahoo.com</p>
+                <p>saihu_01@yahoo.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -2489,7 +2486,7 @@ if ($result6->num_rows > 0) {
             <h4>Reservations</h4>
             <p>
               <strong>Telepon:</strong> 0853-1116-4567<br>
-              <strong>Email:</strong> Irawati_say@yahoo.com<br>
+              <strong>Email:</strong> Irawati_say@yahoo.com<br>saihu_01@yahoo.com<br>
             </p>
           </div>
         </div>
