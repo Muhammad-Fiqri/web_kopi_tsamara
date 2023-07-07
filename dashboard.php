@@ -588,21 +588,21 @@ if ($result6->num_rows > 0) {
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
               <p>Outlet</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
               <p>Jam Buka</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
               <p>Pekerja</p>
             </div>
           </div><!-- End Stats Item -->
@@ -2429,8 +2429,8 @@ if ($result6->num_rows > 0) {
               <i class="icon bi bi-share flex-shrink-0"></i>
               <div>
                 <h3>Waktu Buka</h3>
-                <div><strong>Sen-Sab:</strong> 07.00 - 21.00;
-                  <strong>Minggu:</strong> Tutup
+                <div><strong>Sen-Minggu:</strong> 08.00 - 20.00;
+                  <strong>Tidak Pernah</strong> Tutup
                 </div>
               </div>
             </div>
@@ -2499,8 +2499,8 @@ if ($result6->num_rows > 0) {
           <div>
             <h4>Waktu Buka</h4>
             <p>
-              <strong>Sen-Sab: 07.00</strong> - 21.00<br>
-              Minggu: Tutup
+              <strong>Sen-Minggu: 08.00</strong> - 20.00<br>
+              Tidak Pernah Tutup
             </p>
           </div>
         </div>
