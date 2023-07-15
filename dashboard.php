@@ -1800,7 +1800,7 @@ if ($result6->num_rows > 0) {
                 </div>
                 <div class="col-12">
                   <label for="inputnamalengkap" class="form-label">Alternatif</label>
-                  <input type="text" class="form-control" id="alternatif " name="alternatif">
+                  <input type="text" class="form-control" id="alternatif " name="alternatif" required>
                 </div>
                 <div class=" container" style=" margin-top: 20px;">
                 <div class=" row ">
@@ -1808,15 +1808,15 @@ if ($result6->num_rows > 0) {
                   <label for="inputstatus" class="form-label">C1 => Kadar Air</label>
                   </div>
                   <div class="col"> 
-                  <input type="radio" id="star5" name="ratingc1" value="5" style="margin-left:20px;">
+                  <input type="radio" id="star5" name="ratingc1" value="5" style="margin-left:20px;" required>
                   <label for="star5" >5</label>
-                  <input type="radio" id="star4" name="ratingc1" value="4" style="margin-left:20px;">
+                  <input type="radio" id="star4" name="ratingc1" value="4" style="margin-left:20px;" required>
                   <label for="star4">4</label>
-                  <input type="radio" id="star3" name="ratingc1" value="3" style="margin-left:20px;">
+                  <input type="radio" id="star3" name="ratingc1" value="3" style="margin-left:20px;" required>
                   <label for="star3">3</label>
-                  <input type="radio" id="star2" name="ratingc1" value="2" style="margin-left:20px;">
+                  <input type="radio" id="star2" name="ratingc1" value="2" style="margin-left:20px;" required>
                   <label for="star2">2</label>
-                  <input type="radio" id="star1" name="ratingc1" value="1" style="margin-left:20px;">
+                  <input type="radio" id="star1" name="ratingc1" value="1" style="margin-left:20px;" required>
                   <label for="star1">1</label>
                   </div>
                 </div>
@@ -1827,15 +1827,15 @@ if ($result6->num_rows > 0) {
                   <label for="inputstatus" class="form-label">C2 => Ketinggian Lokasi</label>
                   </div>
                   <div class="col"> 
-                  <input type="radio" id="star5" name="ratingc2" value="5" style="margin-left:20px;">
+                  <input type="radio" id="star5" name="ratingc2" value="5" style="margin-left:20px;" required>
                   <label for="star5" >5</label>
-                  <input type="radio" id="star4" name="ratingc2" value="4" style="margin-left:20px;">
+                  <input type="radio" id="star4" name="ratingc2" value="4" style="margin-left:20px;" required>
                   <label for="star4">4</label>
-                  <input type="radio" id="star3" name="ratingc2" value="3" style="margin-left:20px;">
+                  <input type="radio" id="star3" name="ratingc2" value="3" style="margin-left:20px;" required>
                   <label for="star3">3</label>
-                  <input type="radio" id="star2" name="ratingc2" value="2" style="margin-left:20px;">
+                  <input type="radio" id="star2" name="ratingc2" value="2" style="margin-left:20px;" required>
                   <label for="star2">2</label>
-                  <input type="radio" id="star1" name="ratingc2" value="1" style="margin-left:20px;">
+                  <input type="radio" id="star1" name="ratingc2" value="1" style="margin-left:20px;" required>
                   <label for="star1">1</label>
                   </div>
                 </div>
@@ -1846,15 +1846,15 @@ if ($result6->num_rows > 0) {
                   <label for="inputstatus" class="form-label">C3 => Warna Biji</label>
                   </div>
                   <div class="col"> 
-                  <input type="radio" id="star5" name="ratingc3" value="5" style="margin-left:20px;">
+                  <input type="radio" id="star5" name="ratingc3" value="5" style="margin-left:20px;" required>
                   <label for="star5" >5</label>
-                  <input type="radio" id="star4" name="ratingc3" value="4" style="margin-left:20px;">
+                  <input type="radio" id="star4" name="ratingc3" value="4" style="margin-left:20px;" required>
                   <label for="star4">4</label>
-                  <input type="radio" id="star3" name="ratingc3" value="3" style="margin-left:20px;">
+                  <input type="radio" id="star3" name="ratingc3" value="3" style="margin-left:20px;" required>
                   <label for="star3">3</label>
-                  <input type="radio" id="star2" name="ratingc3" value="2" style="margin-left:20px;">
+                  <input type="radio" id="star2" name="ratingc3" value="2" style="margin-left:20px;" required>
                   <label for="star2">2</label>
-                  <input type="radio" id="star1" name="ratingc3" value="1" style="margin-left:20px;">
+                  <input type="radio" id="star1" name="ratingc3" value="1" style="margin-left:20px;" required>
                   <label for="star1">1</label>
                   </div>
                 </div>
@@ -1865,15 +1865,15 @@ if ($result6->num_rows > 0) {
                   <label for="inputstatus" class="form-label">C4 => Aroma</label>
                   </div>
                   <div class="col"> 
-                  <input type="radio" id="star5" name="ratingc4" value="5" style="margin-left:20px;">
+                  <input type="radio" id="star5" name="ratingc4" value="5" style="margin-left:20px;" required>
                   <label for="star5" >5</label>
-                  <input type="radio" id="star4" name="ratingc4" value="4" style="margin-left:20px;">
+                  <input type="radio" id="star4" name="ratingc4" value="4" style="margin-left:20px;" required>
                   <label for="star4">4</label>
-                  <input type="radio" id="star3" name="ratingc4" value="3" style="margin-left:20px;">
+                  <input type="radio" id="star3" name="ratingc4" value="3" style="margin-left:20px;" required>
                   <label for="star3">3</label>
-                  <input type="radio" id="star2" name="ratingc4" value="2" style="margin-left:20px;">
+                  <input type="radio" id="star2" name="ratingc4" value="2" style="margin-left:20px;" required>
                   <label for="star2">2</label>
-                  <input type="radio" id="star1" name="ratingc4" value="1" style="margin-left:20px;">
+                  <input type="radio" id="star1" name="ratingc4" value="1" style="margin-left:20px;" required>
                   <label for="star1">1</label>
                   </div>
                 </div>
@@ -1884,15 +1884,15 @@ if ($result6->num_rows > 0) {
                   <label for="inputstatus" class="form-label">C5 => Nilai Cacat</label>
                   </div>
                   <div class="col"> 
-                  <input type="radio" id="star5" name="ratingc5" value="5" style="margin-left:20px;">
+                  <input type="radio" id="star5" name="ratingc5" value="5" style="margin-left:20px;" required>
                   <label for="star5" >5</label>
-                  <input type="radio" id="star4" name="ratingc5" value="4" style="margin-left:20px;">
+                  <input type="radio" id="star4" name="ratingc5" value="4" style="margin-left:20px;" required>
                   <label for="star4">4</label>
-                  <input type="radio" id="star3" name="ratingc5" value="3" style="margin-left:20px;">
+                  <input type="radio" id="star3" name="ratingc5" value="3" style="margin-left:20px;" required>
                   <label for="star3">3</label>
-                  <input type="radio" id="star2" name="ratingc5" value="2" style="margin-left:20px;">
+                  <input type="radio" id="star2" name="ratingc5" value="2" style="margin-left:20px;" required>
                   <label for="star2">2</label>
-                  <input type="radio" id="star1" name="ratingc5" value="1" style="margin-left:20px;">
+                  <input type="radio" id="star1" name="ratingc5" value="1" style="margin-left:20px;" required>
                   <label for="star1">1</label>
                   </div>
                 </div>
@@ -1956,11 +1956,11 @@ if ($result6->num_rows > 0) {
             echo '<td class="bdr">'. $row['kode_alternatif'] . '</td>';
             echo '<td class="bdr">'. $row['alternatif'] . '</td>';
            
-            echo '<td><input type="text" style="width:30px;" name="table1_c1[]" value="' . $row['c1'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c2[]" value="' . $row['c2'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c3[]" value="' . $row['c3'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c4[]" value="' . $row['c4'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c5[]" value="' . $row['c5'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c1[]" value="' . $row['c1'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c2[]" value="' . $row['c2'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c3[]" value="' . $row['c3'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c4[]" value="' . $row['c4'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c5[]" value="' . $row['c5'] . '"></td>';
             echo '</tr>';
           }
           } else {
