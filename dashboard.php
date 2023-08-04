@@ -43,24 +43,24 @@ $c64;
 $c65;
 
 
-$sql = "SELECT * FROM nilai_alternatif  WHERE id = 1";
+$sql = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 1";
 $result = $conn->query($sql);
 
 // Memeriksa hasil query
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c11=$c1;
-        $c12=$c2;
-        $c13=$c3;
-        $c14=$c4;
-        $c15=$c5;
+        $c11=$C1;
+        $c12=$C2;
+        $c13=$C3;
+        $c14=$C4;
+        $c15=$C5;
     }
 
 } else {
@@ -68,115 +68,115 @@ if ($result->num_rows > 0) {
 }
 
 
-$sql2 = "SELECT * FROM nilai_alternatif  WHERE id = 2";
+$sql2 = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 2";
 $result2 = $conn->query($sql2);
 
 // Memeriksa hasil query
 if ($result2->num_rows > 0) {
     while ($row = $result2->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c21=$c1;
-        $c22=$c2;
-        $c23=$c3;
-        $c24=$c4;
-        $c25=$c5;
+        $c21=$C1;
+        $c22=$C2;
+        $c23=$C3;
+        $c24=$C4;
+        $c25=$C5;
     }
 } else {
     echo "Tidak ada data yang ditemukan dalam tabel.";
 }
 
-$sql3 = "SELECT * FROM nilai_alternatif  WHERE id = 3";
+$sql3 = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 3";
 $result3 = $conn->query($sql3);
 
 // Memeriksa hasil query
 if ($result3->num_rows > 0) {
     while ($row = $result3->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c31=$c1;
-        $c32=$c2;
-        $c33=$c3;
-        $c34=$c4;
-        $c35=$c5;
+        $c31=$C1;
+        $c32=$C2;
+        $c33=$C3;
+        $c34=$C4;
+        $c35=$C5;
     }
 } else {
     echo "Tidak ada data yang ditemukan dalam tabel.";
 }
 
-$sql4 = "SELECT * FROM nilai_alternatif  WHERE id = 4";
+$sql4 = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 4";
 $result4 = $conn->query($sql4);
 
 // Memeriksa hasil query
 if ($result4->num_rows > 0) {
     while ($row = $result4->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c41=$c1;
-        $c42=$c2;
-        $c43=$c3;
-        $c44=$c4;
-        $c45=$c5;
+        $c41=$C1;
+        $c42=$C2;
+        $c43=$C3;
+        $c44=$C4;
+        $c45=$C5;
     }
 } else {
     echo "Tidak ada data yang ditemukan dalam tabel.";
 }
-$sql5 = "SELECT * FROM nilai_alternatif  WHERE id = 5";
+$sql5 = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 5";
 $result5 = $conn->query($sql5);
 
 // Memeriksa hasil query
 if ($result5->num_rows > 0) {
     while ($row = $result5->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c51=$c1;
-        $c52=$c2;
-        $c53=$c3;
-        $c54=$c4;
-        $c55=$c5;
+        $c51=$C1;
+        $c52=$C2;
+        $c53=$C3;
+        $c54=$C4;
+        $c55=$C5;
     }
 } else {
     echo "Tidak ada data yang ditemukan dalam tabel.";
 }
 
-$sql6 = "SELECT * FROM nilai_alternatif  WHERE id = 6";
+$sql6 = "SELECT * FROM nilai_alternatif  WHERE Id_nilai_alternatif = 6";
 $result6 = $conn->query($sql6);
 
 // Memeriksa hasil query
 if ($result6->num_rows > 0) {
     while ($row = $result6->fetch_assoc()) {
-        // Menghitung nilai
-        $c1=$row['c1'];
-        $c2=$row['c2'];
-        $c3=$row['c3'];
-        $c4=$row['c4'];
-        $c5=$row['c5'];
+        // Menghitung Nilai
+        $C1=$row['C1'];
+        $C2=$row['C2'];
+        $C3=$row['C3'];
+        $C4=$row['C4'];
+        $C5=$row['C5'];
 
-        $c61=$c1;
-        $c62=$c2;
-        $c63=$c3;
-        $c64=$c4;
-        $c65=$c5;
+        $c61=$C1;
+        $c62=$C2;
+        $c63=$C3;
+        $c64=$C4;
+        $c65=$C5;
     }
 } else {
     echo "Tidak ada data yang ditemukan dalam tabel.";
@@ -302,24 +302,24 @@ if ($result6->num_rows > 0) {
               //$stmt2->bind_param("ssssss", $v1, $v2, $v3, $v4, $v5, $v6);
               //$stmt2->execute();
 
-              $stmt11 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 1");
+              $stmt11 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,ym=?,rank=? WHERE Id_nilai_alternatif = 1");
               $stmt11->bind_param("sss", $v1,$y12,$r1);
               $stmt11->execute();
 
-              $stmt12 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 2");
+              $stmt12 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,ym=?,rank=? WHERE Id_nilai_alternatif = 2");
               $stmt12->bind_param("sss", $v2,$y22,$r2);
               $stmt12->execute();
-              $stmt13 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 3");
+              $stmt13 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,Ym=?,Rank=? WHERE Id_nilai_alternatif = 3");
               $stmt13->bind_param("sss", $v3,$y32,$r3);
               $stmt13->execute();
-              $stmt14 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 4");
+              $stmt14 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,Ym=?,Rank=? WHERE Id_nilai_alternatif = 4");
               $stmt14->bind_param("sss", $v4,$y42,$r4);
               $stmt14->execute();
-              $stmt15 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 5");
+              $stmt15 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,Ym=?,Rank=? WHERE Id_nilai_alternatif = 5");
               $stmt15->bind_param("sss", $v5,$y52,$r5);
               $stmt15->execute();
 
-              $stmt16 = $conn->prepare("UPDATE nilai_alternatif  SET v1 =?,ym=?,rank=? WHERE id = 6");
+              $stmt16 = $conn->prepare("UPDATE nilai_alternatif  SET V1 =?,Ym=?,Rank=? WHERE Id_nilai_alternatif = 6");
               $stmt16->bind_param("sss", $v6,$y62,$r6);
               $stmt16->execute();
               
@@ -338,18 +338,18 @@ if ($result6->num_rows > 0) {
     foreach ($_POST["table1_id"] as $key => $id) {
         //$kodealternatif  = $_POST["kodealternatif"];
         $id1 =intval($key)+1;
-        $c1 = $_POST["table1_c1"][$key];
-        $c2 = $_POST["table1_c2"][$key];
-        $c3 = $_POST["table1_c3"][$key];
-        $c4 = $_POST["table1_c4"][$key];
-        $c5 = $_POST["table1_c5"][$key];
+        $C1 = $_POST["table1_c1"][$key];
+        $C2 = $_POST["table1_c2"][$key];
+        $C3 = $_POST["table1_c3"][$key];
+        $C4 = $_POST["table1_c4"][$key];
+        $C5 = $_POST["table1_c5"][$key];
 
         
         
 
         // Prepare and execute the update query for table1
-        $stmt1 = $conn->prepare("UPDATE nilai_alternatif SET c1 = ?, c2 = ?, c3 = ?, c4 = ?, c5 = ? WHERE id = ?");
-        $stmt1->bind_param("iiiiii", $c1, $c2, $c3, $c4, $c5, $id1);
+        $stmt1 = $conn->prepare("UPDATE nilai_alternatif SET C1 = ?, C2 = ?, C3 = ?, C4 = ?, C5 = ? WHERE id = ?");
+        $stmt1->bind_param("iiiiii", $C1, $C2, $C3, $C4, $C5, $id1);
         $stmt1->execute();
 
         
@@ -363,15 +363,15 @@ if ($result6->num_rows > 0) {
 
     if (isset($_POST["tambah_alternatif"])) {
     $alternatif = $_POST["alternatif"];
-    $c1 = $_POST["ratingc1"];
-    $c2 = $_POST["ratingc2"];
-    $c3 = $_POST["ratingc3"];
-    $c4 = $_POST["ratingc2"];
-    $c5 = $_POST["ratingc3"];
+    $C1 = $_POST["ratingc1"];
+    $C2 = $_POST["ratingc2"];
+    $C3 = $_POST["ratingc3"];
+    $C4 = $_POST["ratingc2"];
+    $C5 = $_POST["ratingc3"];
 
-    $stmt = $conn->prepare("UPDATE nilai_alternatif SET alternatif=?, c1=?, c2=?, c3=?, c4=?, c5=? WHERE id = 6");
+    $stmt = $conn->prepare("UPDATE nilai_alternatif SET alternatif=?, C1=?, C2=?, C3=?, C4=?, C5=? WHERE id = 6");
 
-    $stmt->bind_param("ssssss", $alternatif, $c1, $c2, $c3, $c4, $c5);
+    $stmt->bind_param("ssssss", $alternatif, $C1, $C2, $C3, $C4, $C5);
     $stmt->execute();
 
     
@@ -640,7 +640,7 @@ if ($result6->num_rows > 0) {
                   $num = 0;
                   //$pdo = Database::connect();
           
-                  $sql = 'SELECT * FROM kriteria';
+                  $sql = 'SELECT * FROM Kriteria';
                   //$result1 = 
 
                   $result = $conn->query($sql);
@@ -653,16 +653,16 @@ if ($result6->num_rows > 0) {
 
             echo '<tr>';
             echo '<td>'. $num . '</td>';
-            if($kodekriteria1 == $row['kode_kriteria']){
+            if($kodekriteria1 == $row['Kode_kriteria']){
                echo '<td class="bdr"></td>';
                echo '<td class="bdr"></td>';
             }else{
-            echo '<td class="bdr">'. $row['kode_kriteria'] . '</td>';
-            echo '<td class="bdr">'. $row['kriteria'] . '</td>';
+            echo '<td class="bdr">'. $row['Kode_kriteria'] . '</td>';
+            echo '<td class="bdr">'. $row['Kriteria'] . '</td>';
            }
-            echo '<td class="bdr" style="text-align: center;">'. $row['nilai_mutu'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['nilai'] . '</td>';
-            $kodekriteria1 = $row['kode_kriteria'];
+            echo '<td class="bdr" style="text-align: center;">'. $row['Nilai_mutu'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Nilai'] . '</td>';
+            $kodekriteria1 = $row['Kode_kriteria'];
           }
           } else {
           echo "0 results";
@@ -1102,14 +1102,14 @@ if ($result6->num_rows > 0) {
             echo '<tr>';
             echo '<td>'. $num . '</td>';
             
-            echo '<td class="bdr">'. $row['kode_alternatif'] . '</td>';
-            echo '<td class="bdr">'. $row['alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Kode_alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Alternatif'] . '</td>';
            
-            echo '<td class="bdr" style="text-align: center;">'. $row['c1'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c2'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c3'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c4'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c5'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C1'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C2'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C3'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C4'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C5'] . '</td>';
           }
           } else {
           echo "0 results";
@@ -1354,8 +1354,8 @@ if ($result6->num_rows > 0) {
 
             echo '<tr>';
             echo '<td>'. $num . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['keterangan'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['bobot'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Ket_bobot'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Bobot'] . '</td>';
           }
           } else {
           echo "0 results";
@@ -1557,10 +1557,10 @@ if ($result6->num_rows > 0) {
 
             echo '<tr>';
             echo '<td>'. $num . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['kode_kriteria'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['kriteria'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['bobot'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['atribut'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Kode_kriteria'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Kriteria'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Bobot'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Atribut'] . '</td>';
           }
           } else {
           echo "0 results";
@@ -1955,16 +1955,16 @@ if ($result6->num_rows > 0) {
             $num++;
 
             echo '<tr>';
-            echo '<td><input type="hidden" name="table1_id[]" value=" . $row["id"] . ">'. $row["id"] . '</td>';
+            echo '<td><input type="hidden" name="table1_id[]" value=" . $row["id"] . ">'. $row["Id_nilai_alternatif"] . '</td>';
             
-            echo '<td class="bdr">'. $row['kode_alternatif'] . '</td>';
-            echo '<td class="bdr">'. $row['alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Kode_alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Alternatif'] . '</td>';
            
-            echo '<td><input type="text" style="width:30px;" name="table1_c1[]" value="' . $row['c1'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c2[]" value="' . $row['c2'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c3[]" value="' . $row['c3'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c4[]" value="' . $row['c4'] . '"></td>';
-            echo '<td><input type="text" style="width:30px;" name="table1_c5[]" value="' . $row['c5'] . '"></td>';
+            echo '<td><input type="text" style="width:30px;" name="table1_c1[]" value="' . $row['C1'] . '"></td>';
+            echo '<td><input type="text" style="width:30px;" name="table1_c2[]" value="' . $row['C2'] . '"></td>';
+            echo '<td><input type="text" style="width:30px;" name="table1_c3[]" value="' . $row['C3'] . '"></td>';
+            echo '<td><input type="text" style="width:30px;" name="table1_c4[]" value="' . $row['C4'] . '"></td>';
+            echo '<td><input type="text" style="width:30px;" name="table1_c5[]" value="' . $row['C5'] . '"></td>';
             echo '</tr>';
           }
           } else {
@@ -2198,16 +2198,16 @@ if ($result6->num_rows > 0) {
             echo '<tr>';
             echo '<td>'. $num . '</td>';
             
-            echo '<td class="bdr">'. $row['kode_alternatif'] . '</td>';
-            echo '<td class="bdr">'. $row['alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Kode_alternatif'] . '</td>';
+            echo '<td class="bdr">'. $row['Alternatif'] . '</td>';
            
-            echo '<td class="bdr" style="text-align: center;">'. $row['c1'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c2'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c3'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c4'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['c5'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['v1'] . '</td>';
-            echo '<td class="bdr" style="text-align: center;">'. $row['rank'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C1'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C2'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C3'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C4'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['C5'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['V1'] . '</td>';
+            echo '<td class="bdr" style="text-align: center;">'. $row['Rank'] . '</td>';
           }
           } else {
           echo "0 results";

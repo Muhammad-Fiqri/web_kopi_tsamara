@@ -48,7 +48,7 @@
     if($username == '' or $password == ''){
       $err  = "<li>silahkan masukkan username dan juga password</li>";
     }else{
-      $sql1 = "select * from login where username = '$username'";
+      $sql1 = "select * from login where Username = '$username'";
       $q1   = mysqli_query($koneksi,$sql1);
       $r1   = mysqli_fetch_array($q1);
 
@@ -58,14 +58,14 @@
       $err = "<li>username <b>$username</b> tidak tersedia</li>";
     } else {
 
-      if ($r1['password'] != md5($password)) {
-        $err = "<li>Password yang dimasukkan tidak sesuai</li>";
+      if ($r1['Password'] != md5($password)) {
+        $err = "<li>Password yang dimasukkan tidak sesuai</li>".md5($password);
       }}
       if(empty($err)){
 
         $_SESSION['session_username'] = $username;
         $_SESSION['session_password'] = $password;
-        $_SESSION['session_status'] = $r1['status'];
+        $_SESSION['session_status'] = $r1['Status'];
 
       
       header("location:dashboard.php");
