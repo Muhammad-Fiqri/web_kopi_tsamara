@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 24 Jun 2023 pada 08.41
--- Versi server: 10.4.27-MariaDB
--- Versi PHP: 8.2.0
+-- Generation Time: Aug 04, 2023 at 12:19 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -138,31 +138,53 @@ INSERT INTO `login` (`id`, `username`, `password`, `status`) VALUES
 --
 
 CREATE TABLE `nilai_alternatif` (
-  `id_nilai_alternatif` int(10) NOT NULL,
-  `kode_alternatif` varchar(11) NOT NULL,
-  `alternatif` varchar(30) NOT NULL,
-  `c1` int(11) NOT NULL,
-  `c2` int(11) NOT NULL,
-  `c3` int(11) NOT NULL,
-  `c4` int(11) NOT NULL,
-  `c5` int(11) NOT NULL,
-  `v1` float(30,2) NOT NULL,
-  `rank` int(30) NOT NULL,
-  `yp` float(30,2) NOT NULL,
-  `ym` float(30,2) NOT NULL
+  `Id_nilai_alternatif` int(10) NOT NULL,
+  `Kode_alternatif` varchar(11) NOT NULL,
+  `Alternatif` varchar(30) NOT NULL,
+  `C1` int(11) NOT NULL,
+  `C2` int(11) NOT NULL,
+  `C3` int(11) NOT NULL,
+  `C4` int(11) NOT NULL,
+  `C5` int(11) NOT NULL,
+  `V1` float(30,2) NOT NULL,
+  `Rank` int(30) NOT NULL,
+  `Yp` float(30,2) NOT NULL,
+  `Ym` float(30,2) NOT NULL,
+  `Created_at` datetime DEFAULT NULL,
+  `Updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `nilai_alternatif`
+-- Dumping data for table `nilai_alternatif`
 --
 
-INSERT INTO `nilai_alternatif` (`id_nilai_alternatif`, `kode_alternatif`, `alternatif`, `c1`, `c2`, `c3`, `c4`, `c5`, `v1`, `rank`, `yp`, `ym`) VALUES
-(1, 'A1', 'Kemasan Kopi Tarbulan Jenis Robusta', 1, 2, 1, 3, 3, 0.00, 6, 4.24, 0.98),
-(2, 'A2', 'Kopi Robusta Aceh Gayo', 2, 3, 1, 3, 3, 0.38, 4, 7.07, 1.05),
-(3, 'A3', 'Kopi Robusta Jantan Lanang', 2, 2, 1, 3, 3, 0.33, 5, 3.46, 0.67),
-(4, 'A4', 'Kopi Arabika Aceh Gayo ', 2, 4, 2, 4, 3, 0.58, 2, 7.28, 1.54),
-(5, 'A5', 'Kopi Arabika Toraja', 2, 4, 2, 3, 3, 0.55, 3, 6.78, 2.04),
-(6, 'A6', 'asd', 3, 3, 3, 3, 3, 0.77, 1, 2.36, 0.00);
+INSERT INTO `nilai_alternatif` (`Id_nilai_alternatif`, `Kode_alternatif`, `Alternatif`, `C1`, `C2`, `C3`, `C4`, `C5`, `V1`, `Rank`, `Yp`, `Ym`, `Created_at`, `Updated_at`) VALUES
+(1, 'A1', 'Kemasan Kopi Tarbulan Jenis Ro', 1, 2, 1, 3, 3, 0.63, 5, 4.24, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19'),
+(2, 'A2', 'Kopi Robusta Aceh Gayo', 2, 3, 1, 3, 3, 0.78, 3, 7.07, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19'),
+(3, 'A3', 'Kopi Robusta Jantan Lanang', 2, 2, 1, 3, 3, 0.72, 4, 3.46, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19'),
+(4, 'A4', 'Kopi Arabika Aceh Gayo ', 2, 4, 2, 4, 3, 1.00, 1, 7.28, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19'),
+(5, 'A5', 'Kopi Arabika Toraja', 2, 4, 2, 3, 3, 0.89, 2, 6.78, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19'),
+(6, 'A6', '', 0, 0, 0, 0, 0, 0.00, 6, 2.36, 0.00, '2023-08-04 17:07:19', '2023-08-04 17:07:19');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `nilai_alternatif`
+--
+ALTER TABLE `nilai_alternatif`
+  ADD PRIMARY KEY (`Id_nilai_alternatif`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `nilai_alternatif`
+--
+ALTER TABLE `nilai_alternatif`
+  MODIFY `Id_nilai_alternatif` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
