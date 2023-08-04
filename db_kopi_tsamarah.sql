@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `bobot` (
-  `id` int(100) NOT NULL,
-  `keterangan` varchar(255) NOT NULL,
+  `id_bobot` int(10) NOT NULL,
+  `ket_bobot` varchar(30) NOT NULL,
   `bobot` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -37,7 +37,7 @@ CREATE TABLE `bobot` (
 -- Dumping data untuk tabel `bobot`
 --
 
-INSERT INTO `bobot` (`id`, `keterangan`, `bobot`) VALUES
+INSERT INTO `bobot` (`id_bobot`, `ket_bobot`, `bobot`) VALUES
 (1, 'Sangat Tidak Penting (STP)', 1),
 (2, 'Tidak Penting (TP)', 2),
 (3, 'Cukup Penting (CP)', 3),
@@ -51,18 +51,18 @@ INSERT INTO `bobot` (`id`, `keterangan`, `bobot`) VALUES
 --
 
 CREATE TABLE `bobot_kriteria` (
-  `id` int(100) NOT NULL,
+  `id_bobot_kriteria` int(10) NOT NULL,
   `kode_kriteria` varchar(30) NOT NULL,
-  `kriteria` varchar(255) NOT NULL,
+  `kriteria` varchar(30) NOT NULL,
   `bobot` int(30) NOT NULL,
-  `atribut` varchar(100) NOT NULL
+  `atribut` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `bobot_kriteria`
 --
 
-INSERT INTO `bobot_kriteria` (`id`, `kode_kriteria`, `kriteria`, `bobot`, `atribut`) VALUES
+INSERT INTO `bobot_kriteria` (`id_bobot_kriteria`, `kode_kriteria`, `kriteria`, `bobot`, `atribut`) VALUES
 (1, 'C1', 'Kadar Air', 5, 'Keuntungan'),
 (2, 'C2', 'Ketinggian Lokasi', 4, 'Keuntungan'),
 (3, 'C3', 'Warna Biji', 3, 'Keuntungan'),
@@ -76,18 +76,18 @@ INSERT INTO `bobot_kriteria` (`id`, `kode_kriteria`, `kriteria`, `bobot`, `atrib
 --
 
 CREATE TABLE `kriteria` (
-  `id` int(100) NOT NULL,
+  `id_kriteria` int(10) NOT NULL,
   `kode_kriteria` varchar(30) NOT NULL,
   `kriteria` varchar(30) NOT NULL,
   `nilai_mutu` varchar(30) NOT NULL,
-  `nilai` int(30) NOT NULL
+  `nilai` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `kriteria`
 --
 
-INSERT INTO `kriteria` (`id`, `kode_kriteria`, `kriteria`, `nilai_mutu`, `nilai`) VALUES
+INSERT INTO `kriteria` (`id_kriteria`, `kode_kriteria`, `kriteria`, `nilai_mutu`, `nilai`) VALUES
 (1, 'C1', 'Kadar Air', '<12,5%', 1),
 (2, 'C1', 'Kadar Air', '13-15%', 2),
 (3, 'C1', 'Kadar Air', '16-17%', 3),
@@ -118,10 +118,10 @@ INSERT INTO `kriteria` (`id`, `kode_kriteria`, `kriteria`, `nilai_mutu`, `nilai`
 --
 
 CREATE TABLE `login` (
-  `id` int(100) NOT NULL,
+  `id_login` int(10) NOT NULL,
   `username` varchar(30) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `status` varchar(255) NOT NULL
+  `password` varchar(10) NOT NULL,
+  `status` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -138,9 +138,9 @@ INSERT INTO `login` (`id`, `username`, `password`, `status`) VALUES
 --
 
 CREATE TABLE `nilai_alternatif` (
-  `id` int(100) NOT NULL,
+  `id_nilai_alternatif` int(10) NOT NULL,
   `kode_alternatif` varchar(11) NOT NULL,
-  `alternatif` varchar(200) NOT NULL,
+  `alternatif` varchar(30) NOT NULL,
   `c1` int(11) NOT NULL,
   `c2` int(11) NOT NULL,
   `c3` int(11) NOT NULL,
@@ -156,7 +156,7 @@ CREATE TABLE `nilai_alternatif` (
 -- Dumping data untuk tabel `nilai_alternatif`
 --
 
-INSERT INTO `nilai_alternatif` (`id`, `kode_alternatif`, `alternatif`, `c1`, `c2`, `c3`, `c4`, `c5`, `v1`, `rank`, `yp`, `ym`) VALUES
+INSERT INTO `nilai_alternatif` (`id_nilai_alternatif`, `kode_alternatif`, `alternatif`, `c1`, `c2`, `c3`, `c4`, `c5`, `v1`, `rank`, `yp`, `ym`) VALUES
 (1, 'A1', 'Kemasan Kopi Tarbulan Jenis Robusta', 1, 2, 1, 3, 3, 0.00, 6, 4.24, 0.98),
 (2, 'A2', 'Kopi Robusta Aceh Gayo', 2, 3, 1, 3, 3, 0.38, 4, 7.07, 1.05),
 (3, 'A3', 'Kopi Robusta Jantan Lanang', 2, 2, 1, 3, 3, 0.33, 5, 3.46, 0.67),

@@ -1,6 +1,5 @@
 <?php session_start();
 
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -645,8 +644,7 @@ if ($result6->num_rows > 0) {
                   //$result1 = 
 
                   $result = $conn->query($sql);
-
-          
+          $kodekriteria1 =0;
           if ($result->num_rows > 0) {
           // output data of each row
           while($row = $result->fetch_assoc()) {
@@ -655,10 +653,16 @@ if ($result6->num_rows > 0) {
 
             echo '<tr>';
             echo '<td>'. $num . '</td>';
+            if($kodekriteria1 == $row['kode_kriteria']){
+               echo '<td class="bdr"></td>';
+               echo '<td class="bdr"></td>';
+            }else{
             echo '<td class="bdr">'. $row['kode_kriteria'] . '</td>';
             echo '<td class="bdr">'. $row['kriteria'] . '</td>';
+           }
             echo '<td class="bdr" style="text-align: center;">'. $row['nilai_mutu'] . '</td>';
             echo '<td class="bdr" style="text-align: center;">'. $row['nilai'] . '</td>';
+            $kodekriteria1 = $row['kode_kriteria'];
           }
           } else {
           echo "0 results";
