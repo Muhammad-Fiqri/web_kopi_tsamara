@@ -124,7 +124,12 @@
                             <button type="submit" href="#" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> Log in</button>                          
                         </div>
                     </div>
-
+  					
+					<ul style="color:red">
+						<?php
+							echo $err;
+						?>
+					</ul>
                 </form>     
 
             </div>                     
