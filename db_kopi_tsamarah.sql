@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 04, 2023 at 12:19 PM
+-- Generation Time: Aug 04, 2023 at 01:04 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -20,6 +20,116 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_kopi_tsamarah`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `bobot`
+--
+
+CREATE TABLE `bobot` (
+  `Id_bobot` int(10) NOT NULL,
+  `Ket_bobot` varchar(30) NOT NULL,
+  `Bobot` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `bobot`
+--
+
+INSERT INTO `bobot` (`Id_bobot`, `Ket_bobot`, `Bobot`) VALUES
+(1, 'Sangat Tidak Penting (STP)', 1),
+(2, 'Tidak Penting (TP)', 2),
+(3, 'Cukup Penting (CP)', 3),
+(4, 'Penting (P)', 4),
+(5, 'Sangat Penting (SP)', 5);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `bobot_kriteria`
+--
+
+CREATE TABLE `bobot_kriteria` (
+  `Id_bobot_kriteria` int(10) NOT NULL,
+  `Kode_kriteria` varchar(30) NOT NULL,
+  `Kriteria` varchar(30) NOT NULL,
+  `Bobot` int(10) NOT NULL,
+  `Atribut` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `bobot_kriteria`
+--
+
+INSERT INTO `bobot_kriteria` (`Id_bobot_kriteria`, `Kode_kriteria`, `Kriteria`, `Bobot`, `Atribut`) VALUES
+(1, 'C1', 'Kadar Air', 5, 'Keuntungan'),
+(2, 'C2', 'Ketinggian Lokasi', 4, 'Keuntungan'),
+(3, 'C3', 'Warna Biji', 3, 'Keuntungan'),
+(4, 'C4', 'Aroma', 4, 'Keuntungan'),
+(5, 'C5', 'Nilai Cacat', 5, 'Keuntungan');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `kriteria`
+--
+
+CREATE TABLE `kriteria` (
+  `Id_kriteria` int(10) NOT NULL,
+  `Kode_kriteria` varchar(30) NOT NULL,
+  `Kriteria` varchar(30) NOT NULL,
+  `Nilai_mutu` varchar(30) NOT NULL,
+  `Nilai` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `kriteria`
+--
+
+INSERT INTO `kriteria` (`Id_kriteria`, `Kode_kriteria`, `Kriteria`, `Nilai_mutu`, `Nilai`) VALUES
+(1, 'C1', 'Kadar Air', '<12,5%', 1),
+(2, 'C1', 'Kadar Air', '13-15%', 2),
+(3, 'C1', 'Kadar Air', '16-17%', 3),
+(4, 'C1', 'Kadar Air', '>17%', 4),
+(5, 'C2', 'Ketinggian Lokasi', 'Tidak Tinggi', 1),
+(6, 'C2', 'Ketinggian Lokasi', 'Sedikit Tinggi', 2),
+(7, 'C2', 'Ketinggian Lokasi', 'Tinggi', 3),
+(8, 'C2', 'Ketinggian Lokasi', 'Sangat Tinggi', 4),
+(9, 'C3', 'Warna Biji', 'Hijau Kebiruan', 1),
+(10, 'C3', 'Warna Biji', 'Hijau Seragam', 2),
+(11, 'C3', 'Warna Biji', 'Coklat Muda', 3),
+(12, 'C3', 'Warna Biji', 'Coklat Tua', 4),
+(13, 'C4', 'Aroma', 'Tidak Berbau', 1),
+(14, 'C4', 'Aroma', 'Sedikit Berbau', 2),
+(15, 'C4', 'Aroma', 'Berbau', 3),
+(16, 'C4', 'Aroma', 'Sangat Berbau', 4),
+(17, 'C5', 'Nilai Cacat', '<11', 1),
+(18, 'C5', 'Nilai Cacat', '12-25', 2),
+(19, 'C5', 'Nilai Cacat', '26-44', 3),
+(20, 'C5', 'Nilai Cacat', '45-80', 4),
+(21, 'C5', 'Nilai Cacat', '81-150', 5),
+(22, 'C5', 'Nilai Cacat', '>150', 6);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `Id_login` int(10) NOT NULL,
+  `Username` varchar(30) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `Status` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`Id_login`, `Username`, `Password`, `Status`) VALUES
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin');
 
 -- --------------------------------------------------------
 
@@ -61,6 +171,30 @@ INSERT INTO `nilai_alternatif` (`Id_nilai_alternatif`, `Kode_alternatif`, `Alter
 --
 
 --
+-- Indexes for table `bobot`
+--
+ALTER TABLE `bobot`
+  ADD PRIMARY KEY (`Id_bobot`);
+
+--
+-- Indexes for table `bobot_kriteria`
+--
+ALTER TABLE `bobot_kriteria`
+  ADD PRIMARY KEY (`Id_bobot_kriteria`);
+
+--
+-- Indexes for table `kriteria`
+--
+ALTER TABLE `kriteria`
+  ADD PRIMARY KEY (`Id_kriteria`);
+
+--
+-- Indexes for table `login`
+--
+ALTER TABLE `login`
+  ADD PRIMARY KEY (`Id_login`);
+
+--
 -- Indexes for table `nilai_alternatif`
 --
 ALTER TABLE `nilai_alternatif`
@@ -69,6 +203,18 @@ ALTER TABLE `nilai_alternatif`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `bobot_kriteria`
+--
+ALTER TABLE `bobot_kriteria`
+  MODIFY `Id_bobot_kriteria` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `kriteria`
+--
+ALTER TABLE `kriteria`
+  MODIFY `Id_kriteria` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `nilai_alternatif`
