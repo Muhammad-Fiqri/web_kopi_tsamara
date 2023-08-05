@@ -348,7 +348,7 @@ if ($result6->num_rows > 0) {
         
 
         // Prepare and execute the update query for table1
-        $stmt1 = $conn->prepare("UPDATE nilai_alternatif SET C1 = ?, C2 = ?, C3 = ?, C4 = ?, C5 = ? WHERE id = ?");
+        $stmt1 = $conn->prepare("UPDATE nilai_alternatif SET C1 = ?, C2 = ?, C3 = ?, C4 = ?, C5 = ? WHERE Id_nilai_alternatif = ?");
         $stmt1->bind_param("iiiiii", $C1, $C2, $C3, $C4, $C5, $id1);
         $stmt1->execute();
 
@@ -369,7 +369,7 @@ if ($result6->num_rows > 0) {
     $C4 = $_POST["ratingc2"];
     $C5 = $_POST["ratingc3"];
 
-    $stmt = $conn->prepare("UPDATE nilai_alternatif SET alternatif=?, C1=?, C2=?, C3=?, C4=?, C5=? WHERE id = 6");
+    $stmt = $conn->prepare("UPDATE nilai_alternatif SET alternatif=?, C1=?, C2=?, C3=?, C4=?, C5=? WHERE Id_nilai_alternatif = 6");
 
     $stmt->bind_param("ssssss", $alternatif, $C1, $C2, $C3, $C4, $C5);
     $stmt->execute();
@@ -1960,11 +1960,11 @@ if ($result6->num_rows > 0) {
             echo '<td class="bdr">'. $row['Kode_alternatif'] . '</td>';
             echo '<td class="bdr">'. $row['Alternatif'] . '</td>';
            
-            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c1[]" value="' . $row['c1'] . '"></td>';
-            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c2[]" value="' . $row['c2'] . '"></td>';
-            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c3[]" value="' . $row['c3'] . '"></td>';
-            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c4[]" value="' . $row['c4'] . '"></td>';
-            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c5[]" value="' . $row['c5'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c1[]" value="' . $row['C1'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c2[]" value="' . $row['C2'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c3[]" value="' . $row['C3'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c4[]" value="' . $row['C4'] . '"></td>';
+            echo '<td><input type="number" min="0" style="width:30px;" name="table1_c5[]" value="' . $row['C5'] . '"></td>';
             echo '</tr>';
           }
           } else {

@@ -59,7 +59,7 @@
     } else {
 
       if ($r1['Password'] != md5($password)) {
-        $err = "<li>Password yang dimasukkan tidak sesuai</li>".md5($password);
+        $err = "<li>Password yang dimasukkan tidak sesuai</li>";
       }}
       if(empty($err)){
 
