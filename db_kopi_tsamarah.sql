@@ -120,7 +120,7 @@ INSERT INTO `kriteria` (`id_kriteria`, `kode_kriteria`, `kriteria`, `nilai_mutu`
 CREATE TABLE `login` (
   `id_login` int(10) NOT NULL,
   `username` varchar(30) NOT NULL,
-  `password` varchar(10) NOT NULL,
+  `password` varchar(255) NOT NULL,
   `status` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
