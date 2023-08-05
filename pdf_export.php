@@ -23,7 +23,7 @@
 
                 while($row = $result->fetch_assoc()) 
                 {
-                    array_push($row_array,$row['kode_alternatif'],$row['alternatif'],$row['c1'],$row['c2'],$row['c3'],$row['c4'],$row['c5'],$row['v1'],$row['rank']);
+                    array_push($row_array,$row['Kode_alternatif'],$row['Alternatif'],$row['C1'],$row['C2'],$row['C3'],$row['C4'],$row['C5'],$row['V1'],$row['Rank']);
                     array_push($data,$row_array);
                     $row_array = array();
                 }
